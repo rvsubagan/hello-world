@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/birthday', (req, res) => {
-    res.send('Happy Birthday! Happy Birthday! Happy Birthday!')
+    res.send('Happy Birthday! Happy Birthday!')
 })
 
 const PORT = process.env.PORT || 5000
